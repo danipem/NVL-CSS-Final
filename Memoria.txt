@@ -1,0 +1,9 @@
+Para realizar este proyecto he desplegado dos archivos, uno html y otro css.
+He enlazado ambos mediante el elemento link en html para poner todas las instrucciones de estilo en css.
+
+Para realizar las 3 columnas que se piden, he creado 3 bloques con distintas identificaciones para separarlos después en
+css y que se vean de izquierda a derecha, y no uno debajo de otro.
+
+He colocado imágenes de series y enlaces internos (anclas) y externos a posts reales de internet que hablan sobre
+películas y series.
+

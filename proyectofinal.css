@@ -1,0 +1,201 @@
+body {
+	font: 13px verdana, arial, sans-serif;
+	margin: 10 0 10 0px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+ul {
+	list-style: none;
+}
+
+#webcompleta {
+	text-align: left;
+	width: 770px;
+	margin: auto;
+}
+
+#header {
+	background-color: #d0d0ff; 
+    color: #333300; 
+    font-size: 25pt; 
+    font-weight: bold; 
+    padding: 3 3 3 10px; 
+    text-align: center;
+    font: goudy stouts;
+}
+
+#cuerpo { 
+    margin: 10 0 10 0px; 
+}
+
+#izquierda { 
+    width: 160px; 
+    background-color: #fcc; 
+    float: left;
+    font-size: 15pt; 
+}
+
+#izquierda ul{ 
+    margin : 5px; 
+    padding: 10px; 
+    list-style: none;
+    line-height: 30px; 
+} 
+#izquierda li{ 
+    background-color: #fff; 
+    margin: 2 2 2 2px; 
+    padding: 2 2 2 2px; 
+    font-weight: bold; 
+
+} 
+#izquierda a{ 
+    color: #000; 
+    text-decoration: none;
+}
+
+#centro {
+	margin-left: 170px; 
+    background-color: #ffffff; 
+    padding: 4 4 4 4px; 
+    width: 460px; 
+} 
+
+#derecha { 
+   	width: 120px; 
+   	float: right;
+   	border: medium double #fab;
+ }
+
+ h2 {
+ 	text-align: center;
+ 	font: 25px arial black;
+ }
+
+ h3 {
+ 	background-color: #fabada;
+ 	font:28px verdana black;
+ }
+
+img {
+	width: 120px;
+	height: 200px;
+}
+ #fotoizq {
+ 	float: left;
+ }
+
+ #fotocen {
+ 	float: center;
+ }
+
+ #fotoder {
+ 	float: right;
+ }
+
+ .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.textofoto {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: arial black;
+    font-style: italic;
+    color: #d22c2c;
+}
+
+.top {
+	font-family: verdana;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+#derecha h2 {
+	background-color: #f58;
+}
+
+
+#listaderecha {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+    font-style: none;
+    font: 16px, arial black; 
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+
+#listaderecha > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 1em;
+    border-left: 2px solid #CCCCCC;
+    background-color: #f5f5f5; 
+}
+
+#listaderecha > li:before {
+    position: absolute;
+    top: 0;
+    left: -0.95em;
+    width: 1em;
+ 
+    font-size: 4em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #464646;
+     
+    transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    z-index: -99;
+    overflow: hidden;
+     
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+#listaderecha a {
+	font-family: arial black;
+	font-size: 13px;
+	font-style: none;
+}
+
+footer {
+	background-color: #1eecbb;
+	width: 100%;
+}
+
+footer img {
+	height: 40px;
+	width: 40px;
+}
+
+footer > div {
+	text-align: center;
+	padding-top: 20px;
+	text-overflow: auto;
+}
+
+footer address {
+	text-align: center;
+}
+
+footer li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #1AC099;
+  overflow: auto;
+
+}
